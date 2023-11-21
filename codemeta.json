@@ -77,7 +77,15 @@
 	"issueTracker": "https://github.com/beeldengeluid/clariah-mediasuite/issues",
 	"releaseNotes": "https://mediasuite.clariah.nl/documentation/release-notes",
 	"developmentStatus": [ "https://www.repostatus.org/#active", "https://w3id.org/research-technology-readiness-levels#Level9Proven" ],
-	"keywords":  [ "cultural heritage", "data portal", "search", "annotation"],
+	"keywords":  [ "cultural heritage", "data portal", "search", "annotation"],    
+	"softwareHelp": [
+        {
+            "@id": "https://mediasuite.clariah.nl/documentation",
+            "@type": "WebSite",
+            "name": "Media Suite Documentation",
+            "url": "https://mediasuite.clariah.nl/documentation"
+        }
+    ],
     "targetProduct": [
         {
             "@type": "SoftwareApplication",
