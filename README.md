@@ -10,7 +10,7 @@ The Media Suite consists of four key components, all listed in Clariah Tools:
 - [**labo-components**](https://github.com/CLARIAH/labo-components) - the front-end components that determine the dynamic content of the website, such as search results
 - [**labo-workspace-components**](https://github.com/CLARIAH/labo-workspace-components) - the front-end components that handle the user's personal workspace, for example bookmarking results and saving queries
 
-The source code repositories are private. The Clariah Media Suite makes use of a number of APIs, also stored in private repositories.
+The source code repositories are private. The Clariah Media Suite makes use of a number of APIs, also stored in private repositories. The disclosure of said repositories is currently being assessed.
 
 ## Installation
 For installation instructions, request access to the [source repository](https://github.com/beeldengeluid/clariah-mediasuite).
