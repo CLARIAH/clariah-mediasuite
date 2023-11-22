@@ -9,56 +9,55 @@
     "name": "Clariah Media Suite",
     "version": "6.10",
     "description": "The Clariah Media Suite is a research environment in which researchers can search, bookmark, annotate and compare items from a number of cultural heritage collections",
-	"url": "https://mediasuite.clariah.nl/",
+    "url": "https://mediasuite.clariah.nl/",
     "producer": [
         {
             "@id": "https://www.beeldengeluid.nl/",
             "@type": "Organization",
             "name": "Netherlands Institute for Sound and Vision",
             "url": "https://www.beeldengeluid.nl/",
-                "location": {
-                    "@type": "Place",
-                    "name": "Hilversum"
-                }
+            "location": {
+                "@type": "Place",
+                "name": "Hilversum"
+            }
         }
     ],
     "author": [
-		{
-			"@id": "https://github.com/jblom",
-			"@type": "Person",
-			"givenName": "Jaap",
-			"familyName": "Blom",
-			"affiliation": { "@id": "https://www.beeldengeluid.nl/" }
-		}
-	],
-	"sourceOrganization": { "@id": "https://www.beeldengeluid.nl/" },
-	"programmingLanguage": {
-		"@type": "ComputerLanguage",
-		"identifier": "javascript",
-		"name": "javascript"
-	},
-	"operatingSystem": "Linux",
-	"codeRepository": "https://github.com/beeldengeluid/clariah-mediasuite",
+        {
+            "@id": "https://github.com/jblom",
+            "@type": "Person",
+            "givenName": "Jaap",
+            "familyName": "Blom",
+            "affiliation": {
+                "@id": "https://www.beeldengeluid.nl/"
+            }
+        }
+    ],
+    "sourceOrganization": {
+        "@id": "https://www.beeldengeluid.nl/"
+    },
+    "programmingLanguage": {
+        "@type": "ComputerLanguage",
+        "identifier": "python",
+        "name": "python"
+    },
+    "operatingSystem": "Linux",
+    "codeRepository": "https://github.com/beeldengeluid/clariah-mediasuite",
     "softwareRequirements": [
         {
-			"@type": "SoftwareApplication",
-			"identifier": "flask",
-			"name": "flask"
-		},
+            "@type": "SoftwareLibrary",
+            "identifier": "flask",
+            "name": "flask"
+        }
+    ],
+    "funding": [
         {
-			"@type": "SoftwareApplication",
-			"identifier": "nginx",
-			"name": "nginx"
-		}
-	],
-	"funding": [
-		{
-			"@type": "Grant",
-			"name": "CLARIAH-CORE (NWO grant 184.033.101)",
-			"url": "https://www.clariah.nl",
+            "@type": "Grant",
+            "name": "CLARIAH-CORE (NWO grant 184.033.101)",
+            "url": "https://www.clariah.nl",
             "funder": {
                 "@type": "Organization",
-                "name": "NWO", 
+                "name": "NWO",
                 "url": "https://www.nwo.nl"
             }
         },
@@ -67,17 +66,25 @@
             "name": "CLARIAH-PLUS (NWO grant 184.034.023)",
             "funder": {
                 "@type": "Organization",
-                "name": "NWO", 
+                "name": "NWO",
                 "url": "https://www.nwo.nl"
             }
         }
-	],
-	"readme": "https://github.com/CLARIAH/clariah-mediasuite/blob/main/README.md",
-	"issueTracker": "https://github.com/beeldengeluid/clariah-mediasuite/issues",
-	"releaseNotes": "https://mediasuite.clariah.nl/documentation/release-notes",
-	"developmentStatus": [ "https://www.repostatus.org/#active", "https://w3id.org/research-technology-readiness-levels#Level9Proven" ],
-	"keywords":  [ "cultural heritage", "data portal", "search", "annotation"],    
-	"softwareHelp": [
+    ],
+    "readme": "https://github.com/CLARIAH/clariah-mediasuite/blob/main/README.md",
+    "issueTracker": "https://github.com/beeldengeluid/clariah-mediasuite/issues",
+    "releaseNotes": "https://mediasuite.clariah.nl/documentation/release-notes",
+    "developmentStatus": [
+        "https://www.repostatus.org/#active",
+        "https://w3id.org/research-technology-readiness-levels#Level9Proven"
+    ],
+    "keywords": [
+        "cultural heritage",
+        "data portal",
+        "search",
+        "annotation"
+    ],
+    "softwareHelp": [
         {
             "@id": "https://mediasuite.clariah.nl/documentation",
             "@type": "WebSite",
@@ -90,10 +97,12 @@
             "@type": "SoftwareApplication",
             "executableName": "clariah-mediasuite",
             "name": "clariah-mediasuite",
-            "runtimePlatform": [ "Linux"],
-            "description": "The Clariah Media Suite is a research environment in which researchers can search, bookmark, annotate and compare items from a number of cultural heritage collections"
+            "runtimePlatform": [
+                "Linux"
+            ],
+            "description": "The CLARIAH Media Suite is a research environment in which researchers can search, bookmark, annotate and compare items from a number of cultural heritage collections"
         }
     ],
-	"dateCreated": "2023-11-21",
-	"dateModified": "2023-11-21"
+    "dateCreated": "2023-11-21",
+    "dateModified": "2023-11-21"
 }
