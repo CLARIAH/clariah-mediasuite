@@ -95,13 +95,14 @@
     ],
     "targetProduct": [
         {
-            "@type": "SoftwareApplication",
-            "executableName": "clariah-mediasuite",
-            "name": "clariah-mediasuite",
-            "runtimePlatform": [
-                "Linux"
-            ],
-            "description": "The CLARIAH Media Suite is a research environment in which researchers can search, bookmark, annotate and compare items from a number of cultural heritage collections"
+            "@type": "WebApplication",
+            "name": "CLARIAH Media Suite",
+            "url": "https://mediasuite.clariah.nl",
+            "provider": {
+                "@type": "Organization",
+                "name": "Netherlands Institute for Sound and Vision",
+                "url": "https://beeldengeluid.nl"
+            }
         }
     ],
     "dateCreated": "2023-11-21",
